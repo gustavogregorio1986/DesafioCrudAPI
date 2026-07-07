@@ -7,6 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\DesafioCrudAPI.Data\DesafioCrudAPI.Data.csproj" />
     <ProjectReference Include="..\DesafioCrudAPI.Entidade\DesafioCrudAPI.Entidade.csproj" />
   </ItemGroup>
 
