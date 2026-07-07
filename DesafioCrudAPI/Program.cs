@@ -1,6 +1,8 @@
 using DesafioCrudAPI.Data.Contexto;
-using DesafioCrudAPI.Data.Repository;
-using DesafioCrudAPI.Data.Repository.Interface;
+using DesafioCrudAPI.Repository.Repository;
+using DesafioCrudAPI.Repository.Repository.Interface;
+using DesafioCrudAPI.Service.Service;
+using DesafioCrudAPI.Service.Service.Interface;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -14,7 +16,9 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddDbContext<AplicationContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
 builder.Services.AddScoped<IContatoRepository, ContatoRepository>();
+builder.Services.AddScoped<IContatoService, ContatoService>();
 
 var app = builder.Build();
 

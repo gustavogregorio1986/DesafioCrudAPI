@@ -1,7 +1,7 @@
 ﻿using DesafioCrudAPI.Data.Contexto;
-using DesafioCrudAPI.Data.Repository.Interface;
 using DesafioCrudAPI.Entidade.Contato;
 using DesafioCrudAPI.Entidade.Enum;
+using DesafioCrudAPI.Repository.Repository.Interface;
 using Microsoft.EntityFrameworkCore;
 
 public class ContatoRepository : IContatoRepository

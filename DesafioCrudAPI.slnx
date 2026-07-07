@@ -5,9 +5,6 @@
   <Folder Name="/Data/">
     <Project Path="DesafioCrudAPI.Data/DesafioCrudAPI.Data.csproj" />
   </Folder>
-  <Folder Name="/DTO/">
-    <Project Path="DesafioCrudAPI.DTO/DesafioCrudAPI.DTO.csproj" />
-  </Folder>
   <Folder Name="/Entidade/">
     <Project Path="DesafioCrudAPI.Entidade/DesafioCrudAPI.Entidade.csproj" />
   </Folder>
@@ -16,5 +13,8 @@
   </Folder>
   <Folder Name="/Service/">
     <Project Path="DesafioCrudAPI.Service/DesafioCrudAPI.Service.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="DesafioCrudAPI.Test/DesafioCrudAPI.Test.csproj" />
   </Folder>
 </Solution>

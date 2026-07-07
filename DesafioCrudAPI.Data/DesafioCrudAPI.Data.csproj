@@ -24,8 +24,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\DesafioCrudAPI.DTO\DesafioCrudAPI.DTO.csproj" />
     <ProjectReference Include="..\DesafioCrudAPI.Entidade\DesafioCrudAPI.Entidade.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Repository\Interface\" />
   </ItemGroup>
 
 </Project>

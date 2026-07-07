@@ -26,14 +26,9 @@
 
   <ItemGroup>
     <ProjectReference Include="..\DesafioCrudAPI.Data\DesafioCrudAPI.Data.csproj" />
-    <ProjectReference Include="..\DesafioCrudAPI.DTO\DesafioCrudAPI.DTO.csproj" />
     <ProjectReference Include="..\DesafioCrudAPI.Entidade\DesafioCrudAPI.Entidade.csproj" />
     <ProjectReference Include="..\DesafioCrudAPI.Repository\DesafioCrudAPI.Repository.csproj" />
     <ProjectReference Include="..\DesafioCrudAPI.Service\DesafioCrudAPI.Service.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Controllers\" />
   </ItemGroup>
 
 </Project>

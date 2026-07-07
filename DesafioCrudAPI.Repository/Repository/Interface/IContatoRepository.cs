@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DesafioCrudAPI.Data.Repository.Interface
+namespace DesafioCrudAPI.Repository.Repository.Interface
 {
     public interface IContatoRepository
     {
@@ -18,7 +18,6 @@ namespace DesafioCrudAPI.Data.Repository.Interface
 
         // Exemplos de consultas com LINQ
         Task<List<Contato>> BuscarPorNomeAsync(string nome);
-        Task<List<Contato>> BuscarPorSexoAsync(EnumSexo
-
+        Task<List<Contato>> BuscarPorSexoAsync(EnumSexo sexo);
     }
 }
